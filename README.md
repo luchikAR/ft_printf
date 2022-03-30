@@ -2,7 +2,7 @@
 ## Запуск
 Основные команды:
 ```
-make (make all) -
+make (make all)
 make clean - очистка *.o файлов  
 make fclean - очистка *.o и исполняемых файлов
 ```
