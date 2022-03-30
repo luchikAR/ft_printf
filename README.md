@@ -15,13 +15,13 @@
 | %% | Вывод знака "%" | % |  
 
 Список используемых флагов:  
-| Flag | Description |
+| Флаг | Описание |
 |:----:|:-----------:|
-| - | Left-align text with the specified width |
-| (number). | The minimum number of characters to output as a width. If the number has fewer characters, it inserts spaces (or zeros) |
-| .(number) | For integer specifiers (d, i, o, u, x, X), precision determines the minimum number of characters to output. If the value is shorter, zeros are output before the number. The value is not truncated, even if it is longer. An accuracy of 0 means that nothing is output for the value 0. |
-| *. | The width is not specified in the format string, it is passed separately as an argument that must precede the output number |
-| .* | Precision is not specified in the format string, but is passed separately as an argument that must precede the output number |  
+| - | Выровнять текст по левому краю по указанной ширине |
+| (number). | Минимальное количество символов для вывода в виде ширины. Если число содержит меньше символов, оно вставляет пробелы (или нули). |
+| .(number) | Для целочисленных спецификаторов (d, i, o, u, x, X) точность определяет минимальное количество символов для вывода. Если значение короче, то перед числом выводятся нули. Значение не усекается, даже если оно длиннее. Точность 0 означает, что для значения 0 ничего не выводится. |
+| *. | Ширина не указана в строке формата, она передается отдельно в качестве аргумента, который должен предшествовать выходному номеру |
+| .* | Точность не указывается в строке формата, но передается отдельно в качестве аргумента, который должен предшествовать выходному номеру |  
 
 ## Проект протестирован тестером "PFT"  
 Ссылка на тестер: [click](https://github.com/gavinfielder/pft)  
